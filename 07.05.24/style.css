@@ -5,6 +5,11 @@
   width: 100%;
 }
 .top-section {
+  text-decoration: none;
+  font-family: UHCSansTemp, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.906rem;
   background-color: #d0f1f5;
   padding: 5px 5px;
 }
@@ -28,6 +33,11 @@
 }
 
 .top-section-two {
+  text-decoration: none;
+  font-family: UHCSansTemp, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.906rem;
   background-color: white;
   padding: 5px 5px;
 }
@@ -66,12 +76,22 @@ li {
   margin: 0 auto;
 }
 .ptag {
+  text-decoration: none;
+  font-family: UHCSansTemp, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.906rem;
   color: #002677;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .top-section-four {
+  text-decoration: none;
+  font-family: UHCSansTemp, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.906rem;
   position: relative;
   width: 100%;
   display: block;
@@ -91,9 +111,10 @@ li {
   max-width: 350px;
   width: 100%;
 }
-.script h1{ 
-    color: #002677;
-    font-size: 2.25rem;
-    line-height: 2.875rem;
-    font-weight: 600;
-    font-family: UHCSerifHeadline, Georgia, serif;}
+.script h1 {
+  color: #002677;
+  font-size: 2.25rem;
+  line-height: 2.875rem;
+  font-weight: 600;
+  font-family: UHCSerifHeadline, Georgia, serif;
+}
