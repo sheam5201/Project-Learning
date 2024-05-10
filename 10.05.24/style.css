@@ -1,0 +1,96 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f8fb;
+}
+.container {
+  display: block;
+  max-width: 1350px;
+  margin: 0 auto;
+  width: 100%;
+}
+.Header-section {
+  background-color: skyblue;
+  color: black;
+  padding: 5px 5px;
+  height: 100px;
+}
+
+ul {
+  list-style: none;
+}
+.prent-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 16px;
+}
+.child-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 16px 16px;
+}
+.body-parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-child {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: translate(30%, 15%);
+}
+.body-child-one {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: translate(-44%, 15%);
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.body-parent-one {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body-child-two {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: translate(30%, 15%);
+}
+.body-child-three {
+  background-color: orange;
+  color: black;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  transform: translate(-44%, 15%);
+}
+button {
+    background-color: whitesmoke;
+  align-content: center;
+  justify-content: center;
+}
+footer {
+  background-color: skyblue;
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+}
