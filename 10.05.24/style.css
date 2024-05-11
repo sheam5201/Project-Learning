@@ -31,10 +31,17 @@ ul {
   gap: 15px;
   padding: 16px 16px;
 }
+
+.cart-section{
+  padding: 50px 15px 20px 15px;
+}
 .body-parent {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
   align-items: center;
+  gap: 20px;
+  grid-column-gap: 10px;
 }
 .body-child {
   background-color: orange;
@@ -43,50 +50,42 @@ ul {
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 5px;
-  transform: translate(30%, 15%);
-}
-.body-child-one {
-  background-color: orange;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  transform: translate(-44%, 15%);
+  max-width: 300px;
+  width: 100%;
 }
 
-img {
-  height: 100%;
+
+.body-child img {
+  display: block;
+  margin: 10px auto;
+  max-width: 300px;
+  height: 300px;
   width: 100%;
-  margin-bottom: 15px;
 }
-.body-parent-one {
+.text-button-portion {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 5px;
 }
-.body-child-two {
-  background-color: orange;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  transform: translate(30%, 15%);
-}
-.body-child-three {
-  background-color: orange;
-  color: black;
-  border: none;
-  padding: 10px 15px;
-  cursor: pointer;
-  border-radius: 5px;
-  transform: translate(-44%, 15%);
+.text-button-portion .button {
+  background-color: rgb(236, 62, 62);
+  padding: 7px 14px;
+  border-radius: 15px;
 }
 button {
-    background-color: whitesmoke;
-  align-content: center;
-  justify-content: center;
+  color: rgb(255, 255, 255);
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  background: none;
+  border: none;
+}
+.body-child p {
+   margin: 0;
+   padding: 0;
+   font-size: 14px;
+   text-align: center;
 }
 footer {
   background-color: skyblue;
