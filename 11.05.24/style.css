@@ -23,13 +23,11 @@ ul {
   list-style: none;
 }
 .parent-header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 70%;
 }
-.child-header-one {
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 15px;
-  align-items: center;
+.child-header-one {display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2px;
 }
