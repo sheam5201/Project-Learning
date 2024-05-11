@@ -12,7 +12,7 @@ body {
 }
 .header-section {
   background-color: aquamarine;
-  color: black;
+  color: blue;
   width: 100%;
   padding: 10px 0;
 }
@@ -36,11 +36,53 @@ li {
   align-items: center;
   gap: 20px;
 }
-
-.child-header-right {
-}
 .child-header-right ul {
   display: flex;
   align-items: center;
   gap: 15px;
+}
+.body-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+}
+.body-child {
+  background-color: skyblue;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.body-child img {
+  display: block;
+  margin: 10px auto;
+  max-width: 300px;
+  height: 500px;
+  width: 100%;
+}
+.text-button-portion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5px;
+}
+.text-button-portion .button {
+  background-color: black;
+  padding: 7px 14px;
+  border-radius: 15px;
+}
+button {
+  color: rgb(255, 255, 255);
+  padding: 0;
+  text-align: center;
+  margin: 0;
+  background: none;
+  border: none;
 }
